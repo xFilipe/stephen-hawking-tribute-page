@@ -217,7 +217,6 @@
             <li>The Universe in a Nutshell (2001)</li>
             <li>A Briefer History of Time (2005)</li>
             <li>The Grand Design (2010)</li>
-            </li>
         </ol>
     </article>
     <hr>
@@ -263,8 +262,8 @@
             setFixed()
         };
 
-        var header = document.getElementById("header-title");
-        var sticky = header.offsetTop;
+        let header = document.getElementById("header-title");
+        let sticky = header.offsetTop;
 
         function setFixed() {
             if (window.pageYOffset > sticky) {
